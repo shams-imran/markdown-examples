@@ -50,6 +50,27 @@ An [example_with_id][link_url].
 
 ***
 
+#### Images
+![alt text](./sample_image.png "Image Title")
+
+##### Images with Ref id
+[img_id]: ./sample_image.png "Title Image"
+![alt text][img_id]
+
+##### Images with custom Size
+<img src="./sample_image.png" 
+alt="IMAGE ALT TEXT HERE" width="400" height="120" border="10" />
+
+<p align="center">
+  <img src="sample_image.png"/>
+</p>
+
+
+#### Reference Link
+[I'm a relative reference to a repository file](./sample_file.txt)
+
+***
+
 #### Superscript 
 
 E=MC<sup>2</sup>
@@ -176,20 +197,6 @@ Violets are blue.
 This is <span style="color:red">red</span> color text.  
 I am <span style="font-family:Papyrus; font-size:2em;">2 em!</span> font.  
 I am <span style="color:red;font-family:Papyrus; font-size:1.5em;">1.5 em red color</span> font.
-
-#### Images
-![alt text](./sample_image.png "Image Title")
-
-##### Images with Ref id
-[img_id]: ./sample_image.png "Title Image"
-![alt text][img_id]
-
-##### Images with custom Size
-<img src="./sample_image.png" 
-alt="IMAGE ALT TEXT HERE" width="400" height="120" border="10" />
-
-#### Reference Link
-[I'm a relative reference to a repository file](./sample_file.txt)
 
 #### Tables
 
