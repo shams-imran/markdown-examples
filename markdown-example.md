@@ -71,8 +71,8 @@ CO<sub>2</sub>
 #### Unordered
 
 * A list item.    
-Type 4(Fout Space for new line).  
-asdfadsf adsf asdffa sdf
+Type 4(Four Space for new line).  
+Sample text for new line
 * Bar.
 If not type 4(Four Space) they are in same line.
 
@@ -84,8 +84,8 @@ If not type 4(Four Space) they are in same line.
     + sub-item 2 
 * Bananas
     1. bitter
-    2. bupkis
-    3. burper
+    2. sitter
+    3. pit
 * Cunning
     1. abc
         * def
@@ -98,7 +98,7 @@ If not type 4(Four Space) they are in same line.
 
 > Email-style angle brackets are used for blockquotes.
 >> You can also nest them.
->>> Second lavel nested
+>>> Second level nested
 >>>> Third level nested
 > >
 > * You can quote a list.
@@ -135,7 +135,7 @@ alert(s);
 ###### python Code
 ```python
 s = "Python syntax highlighting"
-print s
+print(s)
 ```
 
 ###### json file
@@ -147,7 +147,7 @@ print s
     }
 }
 ```
-###### No language indecation
+###### No language indication
 ```
 No language indicated, so no syntax highlighting. 
 But let's throw in a <b>tag</b>.
@@ -188,7 +188,7 @@ I am <span style="color:red;font-family:Papyrus; font-size:1.5em;">1.5 em red co
 <img src="./sample_image.png" 
 alt="IMAGE ALT TEXT HERE" width="400" height="120" border="10" />
 
-#### Referance Link
+#### Reference Link
 [I'm a relative reference to a repository file](./sample_file.txt)
 
 #### Tables
